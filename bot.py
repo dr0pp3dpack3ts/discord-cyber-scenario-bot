@@ -311,6 +311,66 @@ bluescenarios = [
         "how_to_respond": ["Investigate the source and extent of the surveillance and assess the potential damage",
                         "Implement additional physical security measures to prevent future attacks",
                         "Notify law enforcement as necessary"]
+    },
+        {
+        "prompt": "Social Engineering: A security analyst is responding to a penetration tester who successfully gained access to the organization's network through social engineering tactics. How should the analyst respond?",
+        "ways_to_prevent": ["Provide regular security awareness training to employees to educate them about social engineering tactics and how to avoid them.",
+                            "Implement access controls to limit the amount of sensitive information available to each employee."],
+        "how_to_respond": ["The analyst should review the organization's social engineering training policies and recommend improvements to better educate employees on how to identify and avoid such attacks in the future."]
+    },
+    {
+        "prompt": "Password Cracking: A security analyst is responding to a penetration tester who successfully cracked a password for a critical system. How should the analyst respond?",
+        "ways_to_prevent": ["Implement strong password policies, including requiring complex passwords and implementing multi-factor authentication.",
+                            "Implement regular password changes to prevent attackers from accessing systems for extended periods of time."],
+        "how_to_respond": ["The analyst should recommend implementing stronger password policies, such as using complex passwords and implementing multi-factor authentication, to prevent such attacks in the future."]
+    },
+    {
+        "prompt": "Remote Access: A security analyst is responding to a penetration tester who gained unauthorized remote access to the organization's network. How should the analyst respond?",
+        "ways_to_prevent": ["Implement strong authentication measures, such as multi-factor authentication.",
+                            "Monitor remote access activity to detect and respond to any unauthorized access attempts."],
+        "how_to_respond": ["The analyst should review the organization's remote access policies and recommend improvements to better secure remote access, such as implementing stronger authentication measures and monitoring remote access activity."]
+    },
+    {
+        "prompt": "Web Application: A security analyst is responding to a penetration tester who successfully exploited a vulnerability in the organization's web application. How should the analyst respond?",
+        "ways_to_prevent": ["Implement regular vulnerability assessments and penetration testing to identify and address any vulnerabilities in web applications.",
+                            "Implement web application firewalls to prevent attacks that exploit vulnerabilities."],
+        "how_to_respond": ["The analyst should recommend implementing regular vulnerability assessments and penetration testing on the organization's web applications, as well as implementing web application firewalls to prevent such attacks in the future."]
+    },
+    {
+        "prompt": "Phishing: A security analyst is responding to a penetration tester who successfully tricked employees into clicking on a malicious link through a phishing email. How should the analyst respond?",
+        "ways_to_prevent": ["Implement email filters to block phishing emails from reaching employees' inboxes.",
+                            "Educate employees on how to identify and report suspicious emails."],
+        "how_to_respond": ["The analyst should review the organization's email security policies and recommend improvements to better protect against phishing attacks, such as implementing email filters and educating employees on how to identify and report suspicious emails."]
+    },
+    {
+        "prompt": "Wireless Network: A security analyst is responding to a penetration tester who gained unauthorized access to the organization's wireless network. How should the analyst respond?",
+        "ways_to_prevent": ["Implement strong encryption protocols, such as WPA2, to secure wireless networks.",
+                            "Monitor wireless network activity to detect and respond to any unauthorized access attempts."],
+        "how_to_respond": ["The analyst should recommend implementing stronger wireless network security measures, such as implementing strong encryption protocols and monitoring wireless network activity."]
+    },
+    {
+        "prompt": "SQL Injection: A security analyst is responding to a penetration tester who successfully exploited a vulnerability in the organization's database through a SQL injection attack. How should the analyst respond?",
+        "ways_to_prevent": ["Implement regular vulnerability assessments and penetration testing to identify and address any vulnerabilities in databases.",
+                            "Implement database security measures, such as parameterized queries and database firewalls."],
+        "how_to_respond": ["The analyst should recommend implementing regular vulnerability assessments and penetration testing on the organization's databases, as well as implementing database security measures, such as parameterized queries and database firewalls."]
+    },
+    {
+        "prompt": "Social Media: A security analyst is responding to a penetration tester who gained access to sensitive information through the organization's social media accounts. How should the analyst respond?",
+        "ways_to_prevent": ["Limit access to social media accounts to only those employees who require it for their job functions.",
+                            "Monitor social media activity for suspicious activity, such as unauthorized access attempts or data exfiltration."],
+        "how_to_respond": ["The analyst should recommend implementing stronger social media security policies, such as limiting access to social media accounts and monitoring social media activity for suspicious activity."]
+    },
+    {
+        "prompt": "Physical Access: A security analyst is responding to a penetration tester who gained unauthorized physical access to the organization's facilities. How should the analyst respond?",
+        "ways_to_prevent": ["Implement access controls, such as ID badges or biometric authentication, to limit access to facilities.",
+                            "Monitor physical access activity to detect and respond to any unauthorized access attempts."],
+        "how_to_respond": ["The analyst should recommend implementing stronger physical security measures, such as implementing access controls and monitoring physical access activity."]
+    },
+    {
+        "prompt": "Email Spoofing: A security analyst is responding to a penetration tester who successfully spoofed an email from a high-level executive to trick an employee into divulging sensitive information. How should the analyst respond?",
+        "ways_to_prevent": ["Implement email authentication protocols, such as SPF and DKIM, to prevent email spoofing attacks.",
+                            "Educate employees on how to identify and report suspicious emails."],
+        "how_to_respond": ["The analyst should recommend implementing email authentication protocols, such as SPF and DKIM, to prevent email spoofing attacks, as well as educating employees on how to identify and report suspicious emails."]
     }
 ]
 
